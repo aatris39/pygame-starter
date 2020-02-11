@@ -13,8 +13,12 @@ while run:
 # Game code starts here ---------------------
   win.fill((0, 0, 0))
 
+  img = pygame.image.load('character.png').convert
+
+  win.blit(img, (400, 300))
+
   # Draw a rectangle
-  pygame.draw.rect(win, (0, 204, 102), (50, 50, 100, 200))
+  pygame.draw.rect(win, (111, 204, 232), (50, 50, 100, 200))
   
   #Update the display
   pygame.display.update()
