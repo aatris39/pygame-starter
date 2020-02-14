@@ -1,3 +1,3 @@
-x = "Number of pizzas: " + 1
-y = 5 * 30
-z = 6 > 2
+x = 30
+message = "Goodbye"
+k = x + message > 280
